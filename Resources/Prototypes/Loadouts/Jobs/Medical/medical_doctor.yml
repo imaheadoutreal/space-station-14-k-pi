@@ -16,6 +16,16 @@
     head: ClothingHeadMirror
 
 - type: loadout
+  id: ClothingHeadHatSurgushanka
+  equipment:
+    head: ClothingHeadHatSurgushanka
+
+- type: loadout
+  id: ClothingHeadHatUshankaMedic
+  equipment:
+    head: ClothingHeadHatUshankaMedic
+
+- type: loadout
   id: MedicalBeret
   equipment:
     head: ClothingHeadHatBeretMedic

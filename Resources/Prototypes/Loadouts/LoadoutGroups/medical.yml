@@ -52,6 +52,7 @@
   loadouts:
   - ChiefMedicalOfficerBeret
   - CMOMedicalHeadMirror
+  - UshankaCmo
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerJumpsuit
@@ -124,6 +125,8 @@
   - RainbowSurgeryCap # Delta V
   - WhiteSurgeryCap # Delta V
   - NurseHat
+  - ClothingHeadHatSurgushanka
+  - ClothingHeadHatUshankaMedic
 
 - type: loadoutGroup
   id: MedicalDoctorJumpsuit
@@ -238,6 +241,7 @@
   name: loadout-group-paramedic-head
   minLimit: 0
   loadouts:
+  - ParamedicUshanka
   - ParamedicHead
 
 - type: loadoutGroup

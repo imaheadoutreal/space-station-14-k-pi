@@ -251,6 +251,294 @@
     - PetWearable
     - CorgiWearable
 
+## Képis and ushankas
+- type: entity
+  parent: ClothingHeadHatBeretBlueShield
+  id: ClothingHeadHatKepiBlueshield
+  name: blueshield officer's armored képi
+  description: A tall, blue, green-topped képi covered in steel flowers worn by the Blueshield Officer. For the style-oriented bodyguard.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/kepi_bso.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/kepi_bso.rsi
+
+- type: entity
+  parent: ClothingHeadHatCaptain
+  id: ClothingHeadHatKepiCaptain
+  name: captain's képi
+  description: A tall black képi with a dark blue top, covered in golden flowers. Perfect for showing off your authority.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/kepi_captain.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/kepi_captain.rsi
+
+- type: entity
+  parent: ClothingHeadHatBeretBrigmedic
+  id: ClothingHeadHatKepiCorpsman
+  name: corpsman's képi
+  description: A turquoise képi with a red top, emblazoned with a teal cross. For the Corpsman that knows how to perform miracles, and quick.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/kepi_corpsman.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/kepi_corpsman.rsi
+
+- type: entity
+  parent: ClothingHeadHatBeretCorpsman
+  id: ClothingHeadHatKepiCorpsmanVeteran
+  name: veteran corpsman's képi
+  description: A red-topped képi in a very dark green, bearing a teal cross. Issued only to the most experienced combat medics.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/kepi_corpsmanveteran.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/kepi_corpsmanveteran.rsi
+
+- type: entity
+  parent: ClothingHeadHatHopcap
+  id: ClothingHeadHatKepiHop
+  name: head of personnel's képi
+  description: A black képi with a dark blue top, covered in steel flowers. Shows who's in charge of the paperwork.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/kepi_hop.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/kepi_hop.rsi
+
+- type: entity
+  parent: ClothingHeadHatHoshat
+  id: ClothingHeadHatKepiHos
+  name: head of security's képi
+  description: A black, red-topped képi, covered in golden flowers. For officers that are more inclined towards classical style than safety.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/kepi_hos.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/kepi_hos.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatKepiCentcomm
+  name: centcomm képi
+  description: A detailed, stylish green képi worn by CentComm officials, made of high quality fibers. Shows the station who's REALLY pulling the strings.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/kepi_ntr.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/kepi_ntr.rsi
+  - type: Tag
+    tags:
+    - PetWearable
+    - CorgiWearable
+    - HamsterWearable
+
+- type: entity # Currently unimplemented, due to cadets lacking hats.
+  parent: ClothingHeadHatBeretSecurity
+  id: ClothingHeadHatKepiSecCadet
+  name: security cadet's képi
+  description: A light blue, red-topped képi, bearing Security's emblem and litte other decor. Issued to the inexperienced. You'll earn those flowers yet!
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/kepi_cadet.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/kepi_cadet.rsi
+
+- type: entity
+  parent: ClothingHeadHatBeretSecurity
+  id: ClothingHeadHatKepiSecoff
+  name: security képi
+  description: A black, red-topped képi bearing Security's emblem. Issued to those who prefer style to protection.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/kepi_secoff.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/kepi_secoff.rsi
+
+- type: entity
+  parent: ClothingHeadHatBeretSecurity
+  id: ClothingHeadHatKepiSecoffSenior
+  name: senior officer's képi
+  description: A black, red-topped képi, bearing a particularly fancy emblem. Issued to only the most experienced officers.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/kepi_seniorsecoff.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/kepi_seniorsecoff.rsi
+
+- type: entity
+  parent: ClothingHeadHatBeretDutyOfficer
+  id: ClothingHeadHatKepidutyofficer
+  name: duty officer's képi
+  description: A black képi with an orange top with a security emblem. Issued to those who likes to show off to the prisoners under bars
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/kepi_dutyofficer.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/kepi_dutyofficer.rsi
+
+- type: entity
+  parent: ClothingHeadHatWarden
+  id: ClothingHeadHatKepiWarden
+  name: warden's képi
+  description: A black, red-topped képi, covered in steel flowers. For the style-oriented lawbringer.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/kepi_warden.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/kepi_warden.rsi
+
+- type: entity
+  parent: [ClothingHeadBaseWinter, BaseFoldable] # Starlight
+  id: ClothingHeadHatUshankaMedic
+  name: Medical ushanka
+  description: "\"A white Ushanka with a cross on the side. Whoever is wearing this can and will eventually take care of your injuries.\""
+  components:
+  - type: Clothing
+    sprite: Clothing/Head/Hats/ushanka_medic.rsi
+  - type: Appearance
+  - type: AddAccentClothing
+    accent: RussianAccent
+  - type: Foldable
+    canFoldInsideContainer: true
+  - type: FoldableClothing
+    foldedEquippedPrefix: up
+    foldedHeldPrefix: up
+  - type: Sprite
+    sprite: Clothing/Head/Hats/ushanka_medic.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon-up
+      map: ["foldedLayer"]
+      visible: false
+
+- type: entity
+  parent: [ClothingHeadBaseWinter, BaseFoldable] # Starlight
+  id: ChemistryUshanka
+  name: Physician's ushanka
+  description: "\"A striped blue, white and orange Ushanka. It's survived many an explosion...\""
+  components:
+  - type: Clothing
+    sprite: Clothing/Head/Hats/ushanka_physician.rsi
+  - type: Appearance
+  - type: AddAccentClothing
+    accent: RussianAccent
+  - type: Foldable
+    canFoldInsideContainer: true
+  - type: FoldableClothing
+    foldedEquippedPrefix: up
+    foldedHeldPrefix: up
+  - type: Sprite
+    sprite: Clothing/Head/Hats/ushanka_physician.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon-up
+      map: ["foldedLayer"]
+      visible: false
+
+- type: entity
+  parent: [ClothingHeadBaseWinter, BaseFoldable] # Starlight
+  id: ClothingHeadHatSurgushanka
+  name: Surgeon's ushanka
+  description: "\"A medical ushanka with dark blue patterns, given to those who have good hands.\""
+  components:
+  - type: Clothing
+    sprite: Clothing/Head/Hats/ushanka_surgeon.rsi
+  - type: Appearance
+  - type: AddAccentClothing
+    accent: RussianAccent
+  - type: Foldable
+    canFoldInsideContainer: true
+  - type: FoldableClothing
+    foldedEquippedPrefix: up
+    foldedHeldPrefix: up
+  - type: Sprite
+    sprite: Clothing/Head/Hats/ushanka_surgeon.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon-up
+      map: ["foldedLayer"]
+      visible: false
+
+- type: entity
+  parent: [ClothingHeadBaseWinter, BaseFoldable] # Starlight
+  id: UshankaCmo
+  name: Chief Medical Officer's Ushanka
+  description: "\"A turquoise ushanka with a cross on the side. Whoever is wearing this knows how to revive a person quickly.\""
+  components:
+  - type: Clothing
+    sprite: Clothing/Head/Hats/ushanka_CMO.rsi
+  - type: Appearance
+  - type: AddAccentClothing
+    accent: RussianAccent
+  - type: Foldable
+    canFoldInsideContainer: true
+  - type: FoldableClothing
+    foldedEquippedPrefix: up
+    foldedHeldPrefix: up
+  - type: Sprite
+    sprite: Clothing/Head/Hats/ushanka_CMO.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon-up
+      map: ["foldedLayer"]
+      visible: false
+
+- type: entity
+  parent: [ClothingHeadBaseWinter, BaseFoldable] # Starlight
+  id: ParamedicUshanka
+  name: paramedic's Ushanka
+  description: "\"A medical ushanka with an inverted color scheme, given to those who can whisk the dead and dying to medical.\""
+  components:
+  - type: Clothing
+    sprite: Clothing/Head/Hats/ushanka_paramedic.rsi
+  - type: Appearance
+  - type: AddAccentClothing
+    accent: RussianAccent
+  - type: Foldable
+    canFoldInsideContainer: true
+  - type: FoldableClothing
+    foldedEquippedPrefix: up
+    foldedHeldPrefix: up
+  - type: Sprite
+    sprite: Clothing/Head/Hats/ushanka_paramedic.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon-up
+      map: ["foldedLayer"]
+      visible: false
+
+- type: entity
+  parent: [ClothingHeadBaseWinter, BaseFoldable] # Starlight
+  id: ClothingHeadHatUshankaBrigmedic
+  name: Corpman's Ushanka
+  description: "\"A red and black striped Ushanka with a cross on the side. For security officers who likes to act like a doctor..\""
+  components:
+  - type: Clothing
+    sprite: Clothing/Head/Hats/ushanka_brigmed.rsi
+  - type: Appearance
+  - type: AddAccentClothing
+    accent: RussianAccent
+  - type: Foldable
+    canFoldInsideContainer: true
+  - type: FoldableClothing
+    foldedEquippedPrefix: up
+    foldedHeldPrefix: up
+  - type: Sprite
+    sprite: Clothing/Head/Hats/ushanka_brigmed.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+    - state: icon-up
+      map: ["foldedLayer"]
+      visible: false
+
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBowlerHat

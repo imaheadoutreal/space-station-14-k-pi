@@ -25,6 +25,11 @@
     head: ClothingHeadNurseHatBrigmedic
 
 - type: loadout
+  id: ClothingHeadHatUshankaBrigmedic
+  equipment:
+    head: ClothingHeadHatUshankaBrigmedic
+
+- type: loadout
   id: CorpsmanNurseHat
   effects:
   - !type:GroupLoadoutEffect

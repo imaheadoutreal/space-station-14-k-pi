@@ -35,6 +35,11 @@
     head: ClothingHeadHatBeretChemist
 
 - type: loadout
+  id: ChemistryUshanka
+  equipment:
+    head: ChemistryUshanka
+
+- type: loadout
   id: ChemistNurseHat
   equipment:
     head: ClothingHeadNurseHatChemist

@@ -26,6 +26,11 @@
     head: ClothingHeadHatBeretCmo
 
 - type: loadout
+  id: UshankaCmo
+  equipment:
+    head: UshankaCmo
+
+- type: loadout
   id: CMOMedicalHeadMirror
   equipment:
     head: ClothingHeadMirror

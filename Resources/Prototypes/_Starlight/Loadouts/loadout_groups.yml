@@ -886,6 +886,7 @@
     - ChemistNurseHat
     - ChemistTruckersHat
     - ChemistFisherCap
+    - ChemistryUshanka
 
 - type: loadoutGroup
   id: ChemistBag
@@ -1187,6 +1188,7 @@
   - CorpsmanNurseHat
   - BrigmedicNurseHatOfLife
   - SecurityHelmet
+  - ClothingHeadHatUshankaBrigmedic
 
 - type: loadoutGroup
   id: BrigmedicJumpsuit

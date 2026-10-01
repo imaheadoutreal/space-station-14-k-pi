@@ -8,6 +8,11 @@
       time: 60h
 
 - type: loadout
+  id: ParamedicUshanka
+  equipment:
+    head: ParamedicUshanka
+
+- type: loadout
   id: SeniorParamedicJumpsuit
   effects:
   - !type:GroupLoadoutEffect
